@@ -21,3 +21,7 @@ This code was created by [Your Name]. Feel free to use it as a starting point fo
 ### ToDo
  
 - [ ] Add a dark and light mode
+- [ ] Change portfolio picture
+- [ ] Change API-Bot picture
+- [ ] Fix phone size layout
+- [ ] Change Typing Dolphin Picture
