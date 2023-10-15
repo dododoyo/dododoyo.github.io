@@ -524,10 +524,10 @@ About
   justify-self: center;
 }
 
-/* .about-img .hero-photo {
+.about-img .hero-photo {
   min-width: 240px;
   min-height: 360px;
-} */
+}
 
 @media screen and (min-width:992px) {
   .about-center {
