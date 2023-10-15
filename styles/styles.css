@@ -256,6 +256,7 @@ Navbar
 
 .nav-header {
   display: grid;
+  width:100%;
   grid-template-columns: 1fr 1fr;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -264,7 +265,8 @@ Navbar
 
 .nav-header h2 {
   margin-top: 2%;
-  margin-left: 5%;
+  /* margin-left: 5%; */
+  align-self:left;
 }
 
 .nav-btn {
@@ -369,6 +371,7 @@ Sidebar
 }
 
 .sidebar-links {
+  margin-top:3rem;
   text-align: center;
 }
 
@@ -392,7 +395,7 @@ Sidebar
 .social-icons {
   display: grid;
   margin-top: 3rem;
-  width: 60%;
+  width: 70%;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
 }
@@ -519,13 +522,12 @@ About
 
 .about-img {
   justify-self: center;
-
 }
 
-.about-img .hero-photo {
-  min-width: 340px;
-  min-height: 460px;
-}
+/* .about-img .hero-photo {
+  min-width: 240px;
+  min-height: 360px;
+} */
 
 @media screen and (min-width:992px) {
   .about-center {
@@ -1020,7 +1022,7 @@ Blog
   position: relative;
   -webkit-perspective: 1500px;
   perspective: 1500px;
-  /* margin:2rem; */
+  margin:2rem;
 }
 
 .card-side {
@@ -1070,7 +1072,16 @@ Blog
   border-top-right-radius: var(--radius);
 }
 
+
+
+.card-info {
+  height: 45%;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  margin-bottom: 3rem;
+}
+
 .card-footer {
+  height: 30%;
   display: grid;
   grid-template-columns: auto 1fr;
   -webkit-box-align: center;
@@ -1086,7 +1097,6 @@ Blog
   color: var(--clr-primary-5);
   font-size: 0.85rem;
 }
-
 .card-footer img {
   width: 3rem;
   height: 3rem;
@@ -1099,7 +1109,33 @@ Blog
   padding: 1.5rem 1.5rem;
   /* margin-bottom: 3rem; */
 }
+.card-info h4 {
+  height: 10%;
+}
 
+.card-info p {
+  height: 50%;
+  margin-bottom: 0;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width:460px) {
+  .card-info p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width:350px) {
+  .card-info p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width:280px) {
+  .card-info p {
+    font-size: 0.7rem;
+  }
+}
 .blog-center {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
@@ -1227,7 +1263,7 @@ Products Page
 }
 
 .project-details {
-  padding: 2rem 1.5rem;
+  padding: 1.5rem 1.5rem;
 }
 
 .project-footer {
@@ -1246,6 +1282,14 @@ Products Page
   transition: var(--transition);
   font-size: 1.5rem;
 }
+
+@media screen and (max-width:568px) {
+.project-footer a {
+    font-size: 1.20rem;
+  }
+}
+
+
 
 .project-footer a:hover {
   color: var(--clr-grey-3);
