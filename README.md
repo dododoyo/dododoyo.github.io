@@ -14,7 +14,7 @@ To use this code, simply clone the repository and open the `index.html` file in 
 
 ## Credits
 
-This code was created by [Your Name]. Feel free to use it as a starting point for your own portfolio website.
+This code was created by [Dolphin Mulugeta]. Feel free to use it as a starting point for your own portfolio website.
 
 
 
@@ -22,6 +22,7 @@ This code was created by [Your Name]. Feel free to use it as a starting point fo
  
 - [ ] Add a dark and light mode
 - [ ] Change portfolio picture
-- [ ] Change API-Bot picture
 - [ ] Fix phone size layout
 - [ ] Change Typing Dolphin Picture
+- [ ] Add a layman and developer mode
+
