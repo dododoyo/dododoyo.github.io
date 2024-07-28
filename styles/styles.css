@@ -1275,6 +1275,9 @@ Products Page
   margin-top:1rem;
 }
 
+.all-projects {
+  margin-top: 2rem;
+}
 .project-footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
