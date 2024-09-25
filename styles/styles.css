@@ -284,6 +284,11 @@ Navbar
   text-align: center;
 }
 
+.section-title-about {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
 @media screen and (min-width:768px) {
   .nav {
     background: var(--clr-primary-10);
@@ -528,8 +533,9 @@ About
   min-width: 240px;
   min-height: 360px;
 }
-.about-info a{
-  margin-top:0.5rem;
+
+.about-info a {
+  margin-top: 0.5rem;
 }
 
 @media screen and (min-width:992px) {
@@ -1203,7 +1209,6 @@ Single Page
   background: var(--clr-primary-10);
   min-height: calc(100vh - 5rem - 198px);
 }
-
 .page-info a {
   text-transform: uppercase;
   color: var(--clr-primary-5);
@@ -1219,7 +1224,7 @@ Single Page
 
 /*
 =============== 
-Products Page
+Projects Page
 ===============
 */
 .projects-hero {
@@ -1271,13 +1276,15 @@ Products Page
 .project-details {
   padding: 1.5rem 1.5rem;
 }
-.project-details h4{
-  margin-top:1rem;
+
+.project-details h4 {
+  margin-top: 1rem;
 }
 
 .all-projects {
   margin-top: 2rem;
 }
+
 .project-footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
