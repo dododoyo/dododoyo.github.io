@@ -628,6 +628,26 @@ Services
   }
 }
 
+@media screen and (min-width:676px) {
+  .blog-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 2rem;
+    -moz-column-gap: 2rem;
+    column-gap: 2rem;
+  }
+}
+
+@media screen and (min-width:992px) {
+  .blog-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    -webkit-column-gap: 2rem;
+    -moz-column-gap: 2rem;
+    column-gap: 2rem;
+  }
+}
+
 /*
 =============== 
 Projects
@@ -1031,7 +1051,7 @@ Blog
   position: relative;
   -webkit-perspective: 1500px;
   perspective: 1500px;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 .card-side {
@@ -1081,12 +1101,13 @@ Blog
   border-top-right-radius: var(--radius);
 }
 
-
-
 .card-info {
   height: 45%;
-  padding: 1.5rem 1.5rem 0 1.5rem;
-  margin-bottom: 3rem;
+  padding: 0rem 1rem 0 0;
+  /* margin-bottom: 1rem; */
+}
+.card-info p{
+  margin-top: 1rem;
 }
 
 .card-footer {
@@ -1096,7 +1117,7 @@ Blog
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  /* margin-top: 3rem; */
+  margin-top: 2rem;
 }
 
 .card-footer p {
