@@ -81,7 +81,11 @@ Global Styles
 }
 
 body {
-  font-family: var(--ff-secondary);
+  /* font-family: var(--ff-secondary); */
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   background: white;
   color: var(--clr-grey-1);
   line-height: 1.5;
